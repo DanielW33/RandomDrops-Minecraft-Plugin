@@ -1,0 +1,13 @@
+main: RandomDrops
+name: RandomDrops
+version: 0.0.0
+author: MuchDan
+api-version: 1.15
+
+commands:
+  RandomDrops:
+    permission: RandomDrops.RandomDrops
+    description: Reload RandomDrops plugin by typing /RandomDrops reload
+  ExtraDrops:
+    permission: RandomDrops.ExtraDrops
+    description: Able to receive extra blocks.

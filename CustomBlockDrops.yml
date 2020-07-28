@@ -1,0 +1,29 @@
+#####################################
+##  RandomDrops
+##  Created by: MuchDan
+##  Date: 6/24/20
+##  Purpose: To enable a chance to drop additional items, given that the player has the permission RandomDrops.ExtraDrops
+#Material: The Material that is mined.
+#Percentage chance to drop one of the items below only active if PerItemDropChance is false.
+#Toggle between setting each percentage, or a flat percentage: DropChance
+#Number of possible drops.
+#Possible Drops: the drops that can be dropped given the user has the permission required.
+#Format when PerItemDropChance is false: 'Material:Quantity' Note that Quantity is from 1-Quantity
+#Format when PerItemDropChance is true: 'Material:NumberofLore(Ex.3):LORE:LORE:LORE:ENCHANTMENT:LEVEL:Chance:Quantity' Note that Quantity is from 1-Quantity
+Blocks:
+  Dirt:
+    Material: DIRT
+    DropChance: 0
+    PerItemDropChance: true
+    Inputs: 1
+    PossibleDrops:
+      - 'GOLD_NUGGET!!8!!&eStarlight Fragment!!%EMPTY%!!&e----------------!!&7Tier: &fStella!!&e----------------!!%EMPTY%!!&7Hope is more dazzling than!!&7a broken piece of truth.!!%EMPTY%!!MINECRAFT:POWER!!1!!.0001!!1'
+
+  Grass:
+    Material: GRASS_BLOCK
+    DropChance: 0
+    PerItemDropChance: true
+    Inputs: 1
+    PossibleDrops:
+      - 'GOLD_NUGGET!!8!!&eStarlight Fragment!!%EMPTY%!!&e----------------!!&7Tier: &fStella!!&e----------------!!%EMPTY%!!&7Hope is more dazzling than!!&7a broken piece of truth.!!%EMPTY%!!MINECRAFT:POWER!!1!!.0001!!1'
+
